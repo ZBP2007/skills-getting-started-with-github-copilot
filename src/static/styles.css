@@ -74,6 +74,90 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-section {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #d8dee8;
+}
+
+.participants-section h5 {
+  margin-bottom: 6px;
+  color: #394150;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.participant-list {
+  padding-left: 0;
+  list-style: none;
+  color: #4b5563;
+  font-size: 0.9rem;
+  overflow-wrap: anywhere;
+}
+
+.participant-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 4px 0;
+  border-bottom: 1px solid #e4e8ee;
+}
+
+.participant-row:last-child {
+  border-bottom: 0;
+}
+
+.participant-email {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.participant-remove {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  color: #697586;
+}
+
+.participant-remove svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.participant-remove:hover {
+  border-color: #f2c7c7;
+  background: #fff1f1;
+  color: #b42318;
+}
+
+.participant-remove:focus-visible {
+  outline: 2px solid #3949ab;
+  outline-offset: 2px;
+}
+
+.participant-remove:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+
+.participant-list .participant-empty {
+  color: #737b87;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
